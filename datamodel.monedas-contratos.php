@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <classes>
+    <class id="Contract">
+      <fields>
+        <field id="cost_currency">
+          <values>
+            <!-- Añade aquí "Tu Moneda", y después en <dictionaries> -->
+            <!-- <value id="tu_moneda" _delta="define">tu_moneda</value> -->
+            <value id="pesos" _delta="define">pesos</value>
+            <value id="rublos" _delta="define">rublos</value>
+            <value id="yuanes" _delta="define">yuanes</value>
+            <value id="bitcoins" _delta="define">bitcoins</value>
+            <value id="ethereum" _delta="define">ethereum</value>
+          </values>
+        </field>
+      </fields>
+    </class>
+  </classes>
+  <dictionaries>
+    <dictionary id="ES CR">
+      <entries>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:pesos" _delta="define"><![CDATA[Pesos]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:rublos" _delta="define"><![CDATA[Rublos]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:yuanes" _delta="define"><![CDATA[Yuanes]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:bitcoins" _delta="define"><![CDATA[Bitcoins]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:ethereum" _delta="define"><![CDATA[Ethereum]]></entry>
+      </entries>
+    </dictionary>
+    <dictionary id="EN US">
+      <entries>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:pesos" _delta="define"><![CDATA[Pesos]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:rublos" _delta="define"><![CDATA[Rubles]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:yuanes" _delta="define"><![CDATA[Yuan]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:bitcoins" _delta="define"><![CDATA[Bitcoins]]></entry>
+        <entry id="Class:Contract/Attribute:cost_currency/Value:ethereum" _delta="define"><![CDATA[Ethereum]]></entry>
+      </entries>
+    </dictionary>
+    <!-- Crea un diccionario para tu código de idioma ('EN US', 'FR FR', 'RU RU', etc.) y añade la traducción como sigue: -->
+    <!-- <dictionary id="ES CR"> -->
+      <!-- <entries> -->
+        <!-- <entry id="Class:Contract/Attribute:cost_currency/Value:tu_moneda" _delta="define"><![CDATA[Tu moneda]]></entry> -->
+      <!-- </entries> -->
+    <!-- </dictionary> -->
+  </dictionaries>
+</itop_design>
